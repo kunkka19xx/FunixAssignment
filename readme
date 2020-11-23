@@ -1,0 +1,42 @@
+Project Requirement
+
+Complete the following tasks in the project:
+
+Task 1:
+
+Create a new Python program called “lastname_firstname_grade_the_exams.py.”
+(Make sure your source code file is inside of the same folder as the data files you just downloaded.)
+
+Task 2:
+
+Next, you will need to analyze the data contained within the file you just opened to ensure that it is
+in the correct format.
+Each data file contains a series of student responses in the following format:
+
+Task 3:
+
+Next, you are going to write a program to grade the exams for a given section.
+The exam was a 25-question, multiple-choice exam. Here is a string that represents the answer key:
+answer_key = "B,A,D,D,C,B,D,A,C,C,D,B,A,B,A,C,B,D,A,C,A,A,B,D,D"./
+
+Task 4:
+
+Finally, have your program generate a “results” file that contains the detailed results
+for each student in your class.
+
+------
+Your program should use this key to compute a score for each valid line of data. Scores can be computed as follows:
+
++4 points for every right answer
+0 points for every skipped answer
+-1 point for every incorrect answer
+You will also want to compute the following statistics for the entire class:
+
+The average score
+The highest score
+The lowest score
+The range of scores (the highest minus the lowest)
+The median value (Sort the grades in ascending order.
+If the # of students is odd you can take the middle of all the grades
+(i.e. [0, 50, 100]—the median is 50). If the # of students is even you can compute
+the mean by averaging the middle two values (i.e. [0, 50, 60, 100]—the median is 55).
